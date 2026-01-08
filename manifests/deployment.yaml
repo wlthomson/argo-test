@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: argo-test
-        image: <your-dockerhub-username>/argo-test:latest
+        image: wlthomson/argo-test:latest
         ports:
         - containerPort: 8080
         env:
