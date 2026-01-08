@@ -3,7 +3,6 @@ const app = express();
 const port = 8080;
 
 const message = process.env.MESSAGE || 'Hello from the default UI!';
-const color = process.env.COLOR || '#3498db';
 
 app.get('/', (req, res) => {
   res.send(`
@@ -13,7 +12,6 @@ app.get('/', (req, res) => {
       <title>Simple UI</title>
       <style>
         body {
-          background-color: ${color};
           display: flex;
           justify-content: center;
           align-items: center;

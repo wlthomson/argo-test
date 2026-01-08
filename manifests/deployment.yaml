@@ -20,5 +20,3 @@ spec:
         env:
         - name: MESSAGE
           value: "Testing"
-        - name: COLOR
-          value: "#808080"
